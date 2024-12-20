@@ -1,0 +1,6 @@
+---
+- name: update and upgrade
+  hosts: server
+  become: yes
+  roles:
+    - role: ./role/server

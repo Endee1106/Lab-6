@@ -1,0 +1,7 @@
+all:
+  children:
+    lab6:
+      hosts:
+        server:
+          ansible_host: 192.168.228.200
+          ansible_user: manh
